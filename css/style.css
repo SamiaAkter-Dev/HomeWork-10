@@ -1,0 +1,173 @@
+/* All Common CSS Start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* All Common CSS End  */
+
+
+.navbar{
+  padding: 20px 0;
+  background: #07110D;
+}
+.nav-link{
+     color: #9DB3A8;
+     font-size: 15px;
+     font-weight: 500;
+     font-family: "Inter", sans-serif; 
+     margin:0 20px;  
+}
+
+.getBtn{
+    background: #1FB57F;
+    padding: 12px 22px;
+    border-radius: 999px;
+     color: #07110D;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;   
+  
+}
+
+.nav-link:hover{
+    color: #9DB3A8;
+}
+
+ /* Banner Part Start  */
+#bannerPart{
+    padding:120px 200px;
+    background:#07110D ;
+}
+
+.bannerRight{
+    position: relative;
+}
+.cardSakib{
+    height:90px;
+    width:346px;
+    border-radius: 10px;
+    background:#07110D;
+    position: absolute;
+    bottom:20px;
+    left:20px;
+}
+.cardSakib h3{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Bebas Neue", sans-serif;
+    color:#F4EFE6;
+    text-transform: uppercase;
+    padding: 10px 0 0 20px;
+}  
+.cardSakib h5{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#9DB3A8;
+    padding: 0 0 0 20px;
+} 
+
+
+.banner-left h5{
+    font-size:13px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color:#1FB57F;
+    letter-spacing: 18%;
+    position: relative;
+
+}
+.banner-left h5::after{
+    background:#F42A41;
+    height: 2px;
+    width: 40px;
+    content: "";
+    position: absolute;
+    left:-50px;
+    bottom:8px;
+}
+.banner-left h3{
+    font-size: 148px;
+    font-weight: 500;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 88%;
+    margin:30px 0;
+    color:#F4EFE6;
+}
+.banner-left p{
+    width: 560px;
+    color: #9DB3A8;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.bannerBtn{
+    display: flex;
+    gap: 20px;
+}
+.bannerBtn .career{
+    background: #F42A41;
+    padding:16px 28px;
+    border-radius: 999px;
+    color: #F4EFE6;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    transition: all linear 0.3s;
+}
+.bannerBtn .career:hover{
+    background:transparent;
+    border:2px solid #F42A41;
+
+}
+.bannerBtn .record{
+    background:transparent;
+    padding:16px 28px;
+    border:2px solid #21402F;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    border-radius: 999px;
+    color: #F4EFE6;
+}
+/* banner part end  */
+
+/* Scoreboard Part Start */
+#scoreboardPart{
+   padding-bottom: 100px;
+   padding-top: 60px;
+   background: #0E1F18;
+}
+
+.scoreCard{
+    background: #21402F;
+    border-radius: 20px;
+  padding:28px 95px 52px 28px;
+}
+.scoreCard h3{
+    font-size:62px;
+    font-weight: 500;
+    font-family: "Bebas Neue", sans-serif;
+    color:#F4EFE6;
+}
+.scoreCard h6{
+    font-size:15px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color:#9DB3A8;
+}
+
+
+
+/* Scoreboard Part End */
